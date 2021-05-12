@@ -1,0 +1,132 @@
+* {
+    -bg-color-one : #011a73;
+    -bg-color-two : #011a73;
+    -bg-color-three : #2a415f;
+    -font-color : #ffffff;
+    -font-color-two : #bbbbbb;
+    -text-field-prompt-text : gray;
+    -text-field-border-color : gray;
+    -icon-color : -font-color;
+}
+
+Label
+{
+    -fx-text-fill : -font-color ;
+}
+
+.root {
+
+    -fx-focus-color: -fx-accent;
+    -fx-base:  -bg-color-one;
+    -fx-background-color:  -bg-color-one;
+    -fx-text-fill: -font-color ;
+}
+
+.ikonli-font-icon
+{
+    -fx-icon-color: -icon-color;
+}
+
+.plugins_pane{
+    -fx-background-color :  -bg-color-one;
+}
+
+.client_and_profile_selector_pane  {
+    -fx-background-color : -bg-color-two;
+}
+
+.action_grid_pane_parent {
+    -fx-background: -bg-color-two;
+    -fx-border-color:-bg-color-two;
+}
+
+.action_grid_pane {
+    -fx-background-color: -bg-color-two;
+}
+
+.plugins_pane_each_plugin_box_parent, .plugins_pane_each_plugin_box
+{
+    -fx-background-color: -bg-color-three;
+}
+
+.action_details_pane_scroll_pane {
+   -fx-background:  -bg-color-three ;
+   -fx-border-color: -bg-color-three ;
+}
+
+.action_details_pane
+{
+    -fx-background-color:  -bg-color-three ;
+}
+
+.action_details_pane_scroll_pane .viewport {
+       -fx-background-color: transparent;
+}
+
+.action_details_pane_scroll_pane {
+   -fx-background-color: transparent;
+
+}
+
+
+.plugins_settings_scroll_pane, .themes_settings_scroll_pane, .clients_settings_scroll_pane
+{
+    -fx-background: -bg-color-one;
+    -fx-border-color:-bg-color-one;
+}
+
+.text-field
+{
+    -fx-text-fill: -font-color ;
+    -fx-prompt-text-fill: -text-field-prompt-text;
+    -fx-background-color : -bg-color-two;
+    -fx-border-width : 0 0 1 0;
+    -fx-border-color: -text-field-prompt-text;
+}
+
+.about_license_text_area {
+    -fx-text-fill:-font-color ;
+}
+
+.about_license_text_area {
+    text-area-background: blue ;
+}
+
+.about_license_text_area .content {
+    -fx-background-color: -bg-color-two;
+}
+
+.alert_pane
+{
+    -fx-background-color : -bg-color-two;
+    -fx-border-color : -bg-color-two;
+}
+
+.alert_content_pane
+{
+    -fx-background-color: -bg-color-two;
+    -fx-padding: 5;
+}
+
+.alert_scroll_pane
+{
+    -fx-background:  -bg-color-two;
+    -fx-border-color:-bg-color-two;
+}
+
+.alert_button_bar
+{
+    -fx-background-color:-bg-color-two;
+}
+
+.combo-box .cell
+{
+    -fx-text-fill: -font-color;
+    -fx-background-color : -bg-color-two;
+}
+
+.combo-box
+{
+    -fx-text-fill: -font-color;
+    -fx-background-color : -bg-color-two;
+}
